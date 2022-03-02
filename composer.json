@@ -1,0 +1,19 @@
+{
+    "name": "jshossen/scrapper",
+    "description": "url to dom",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Scrapper\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jakir Hossen",
+            "email": "jshossen01@gmail.com"
+        }
+    ],
+    "require": {
+        "paquettg/php-html-parser": "^3.1"
+    }
+}
