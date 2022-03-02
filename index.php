@@ -8,5 +8,6 @@ error_reporting(E_ALL);
 
 require_once 'vendor/autoload.php';
 
-$app = new App('https://prismbuilder.com/bxwp');
+$url = $_GET['url'];
+$app = new App($url);
 $app->run();
